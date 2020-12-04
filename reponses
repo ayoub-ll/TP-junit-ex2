@@ -1,0 +1,18 @@
+2. 
+En effet il y a une ambiguité, c'est la formulation de la demande.
+Si je comprends bien, il nous est demandé une fusion de 2 vecteurs, hors ce n'est pas formulé ainsi.
+
+ambiguité 1: l'unicité:
+Si on a un élement dans "A" et que ce même élement est dans B on le duplique ?
+ou on l'add pas vu qu'il existe déjà
+
+ambiguité 2: que fait-on de la sensibilité au type ? exemple: Si on a dans A, un "1" en double, et dans B un "1" en int
+qu'est-ce qu'on fait ? 
+
+
+
+3.
+Nouvel énoncé: écrire une methode Java de signature "public static Vector(Vector a, Vector b)" retournant un vecteur d'objets 
+contenus dans A ou B. 
+Duplication possible des élements (donc pas d'unicité).
+Pas de sensibilité au type, on peut ajouter tout type.
