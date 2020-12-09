@@ -13,6 +13,6 @@ qu'est-ce qu'on fait ?
 
 3.
 Nouvel énoncé: écrire une methode Java de signature "public static Vector(Vector a, Vector b)" retournant un vecteur d'objets 
-contenus dans A ou B. 
+contenus dans A ou B qui est un nouveau Vector (new) auquel on ajoute les élèments passants la condition.
 Duplication possible des élements (donc pas d'unicité).
 Pas de sensibilité au type, on peut ajouter tout type.
